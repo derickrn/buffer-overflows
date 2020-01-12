@@ -1,0 +1,16 @@
+# Nmap 7.70 scan initiated Sat Jan 11 19:56:23 2020 as: nmap -p- -sV -sS -T4 -v -oN scan.nmap 10.11.23.92
+Nmap scan report for 10.11.23.92
+Host is up (0.16s latency).
+Not shown: 65533 filtered ports
+PORT      STATE SERVICE           VERSION
+3389/tcp  open  ms-wbt-server     Microsoft Terminal Service
+10000/tcp open  snet-sensor-mgmt?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port10000-TCP:V=7.70%I=7%D=1/11%Time=5E1A6F55%P=i686-pc-linux-gnu%r(Get
+SF:Request,12,"GET\x20/\x20HTTP/1\.0\r\n\r\n");
+MAC Address: 00:50:56:B8:08:09 (VMware)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan 11 19:59:37 2020 -- 1 IP address (1 host up) scanned in 194.84 seconds
