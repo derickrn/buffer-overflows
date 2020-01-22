@@ -3,7 +3,7 @@ import socket
 import sys
 from time import sleep
 
-# Create an array of buffers, from 1 to 5900, with increments of 200.
+# Create an array of buffers
 buffer=["A"]
 counter=100
 while len(buffer) <= 1000:
